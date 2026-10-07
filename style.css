@@ -234,6 +234,10 @@ nav a:hover, nav a.active { color: var(--amber); background: rgba(255,255,255,.0
 .article-bottom-line strong { color: var(--amber); display: block; margin-bottom: 6px; font-size: .85rem; text-transform: uppercase; letter-spacing: .08em; }
 .article-bottom-line p { margin: 0; font-size: .95rem; color: rgba(255,255,255,.85); }
 
+/* ── Article FAQ section (inline style override) ─────────────────────── */
+.faq-article section h3 { font-size: 1.0625rem !important; line-height: 1.6; }
+.faq-article section p { font-size: 1.0625rem !important; line-height: 1.85 !important; }
+
 /* ── FAQ Index ────────────────────────────────────────────────────────── */
 .faq-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
 .faq-card { background: var(--white); border: 1px solid #e2e8f0; border-radius: var(--radius); padding: 20px; transition: box-shadow .2s, transform .2s; display: flex; flex-direction: column; gap: 8px; }
