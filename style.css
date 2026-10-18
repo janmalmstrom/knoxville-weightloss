@@ -223,6 +223,9 @@ nav a:hover, nav a.active { color: var(--amber); background: rgba(255,255,255,.0
 .faq-article ol li { counter-increment: item; }
 .faq-article ol li::before { content: counter(item) '.'; position: absolute; left: 0; color: var(--amber-dark); font-weight: 700; }
 
+.article-byline { font-size: .875rem; color: #64748b; margin-top: .5rem; }
+.article-byline a { color: var(--amber-dark, #b45309); text-decoration: none; font-weight: 600; }
+.article-byline a:hover { text-decoration: underline; }
 .article-quick-answer { background: #fffbeb; border-left: 4px solid var(--amber); border-radius: 0 var(--radius) var(--radius) 0; padding: 16px 20px; margin-bottom: 28px; font-size: .95rem; }
 .article-quick-answer strong { color: var(--amber-dark); }
 .article-tip { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: var(--radius); padding: 16px 20px; margin: 24px 0; font-size: .9rem; color: #166534; }
