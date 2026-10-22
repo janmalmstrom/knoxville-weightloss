@@ -106,12 +106,17 @@
 }
   </script>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-XXXXXXXXXX');
+    window.addEventListener('load', function() {
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
+      s.async = true;
+      document.head.appendChild(s);
+    });
   </script>
   <script type='application/ld+json'>
   {
@@ -385,11 +390,11 @@ Fact-check:
   <!-- Sidebar / Related -->
   <aside class="article-sidebar">
     <div class="sidebar-box">
-      <h4>Related Questions</h4>
+      <h3>Related Questions</h3>
       <ul class="sidebar-links" id="sidebar-related"></ul>
     </div>
     <div class="sidebar-cta">
-      <h4>Speak with a Physician</h4>
+      <h3>Speak with a Physician</h3>
       <p>Physician-supervised GLP-1 therapy — Knoxville, TN.</p>
       <a href="tel:8655550100" class="btn-primary" style="display:block;text-align:center;">&#128222; (865) 555-0100</a>
     </div>
@@ -438,20 +443,20 @@ Fact-check:
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-col footer-nap">
-      <h4>Knoxville Weight Loss Clinic</h4>
+      <h3>Knoxville Weight Loss Clinic</h3>
       <p><strong>Phone:</strong> (865) 555-0100</p>
       <p><strong>Area:</strong> Knoxville, TN</p>
       <p><strong>Hours:</strong> Mon&ndash;Fri 8am&ndash;5pm ET</p>
     </div>
     <div class="footer-col">
-      <h4>GLP-1 Services</h4>
+      <h3>GLP-1 Services</h3>
       <a href="/services.html">Semaglutide (Wegovy)</a>
       <a href="/services.html">Tirzepatide (Zepbound)</a>
       <a href="/services.html">Medical Weight Loss Program</a>
       <a href="/services.html">GLP-1 for Type 2 Diabetes</a>
     </div>
     <div class="footer-col">
-      <h4>Service Area</h4>
+      <h3>Service Area</h3>
       <p>Knoxville, TN</p>
       <p>Oak Ridge, TN</p>
       <p>Maryville, TN</p>
@@ -459,7 +464,7 @@ Fact-check:
       <p>East Tennessee</p>
     </div>
     <div class="footer-col">
-      <h4>Quick Links</h4>
+      <h3>Quick Links</h3>
       <a href="/">Home</a>
       <a href="/services.html">GLP-1 Services</a>
       <a href="/faq/">FAQ</a>
