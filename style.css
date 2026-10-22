@@ -3,8 +3,8 @@
 :root {
   --green:        #166534;
   --green-dark:   #14532d;
-  --amber:        #d97706;
-  --amber-dark:   #b45309;
+  --amber:        #b45309;
+  --amber-dark:   #92400e;
   --green-light:  #f0fdf4;
   --green-mid:    #86efac;
   --gray:         #f8fafc;
@@ -139,8 +139,8 @@ nav a:hover, nav a.active { color: var(--amber); background: rgba(255,255,255,.0
   flex-wrap: wrap;
 }
 .trust-item { text-align: center; }
-.trust-item .num { font-size: 2rem; font-weight: 900; color: var(--amber); }
-.trust-item .label { font-size: .8rem; color: rgba(255,255,255,.6); margin-top: 2px; }
+.trust-item .num { font-size: 2rem; font-weight: 900; color: #fff; }
+.trust-item .label { font-size: .8rem; color: rgba(255,255,255,.9); margin-top: 2px; }
 
 /* ── Sections ─────────────────────────────────────────────────────────── */
 .section { padding: 64px 20px; }
@@ -185,7 +185,7 @@ nav a:hover, nav a.active { color: var(--amber); background: rgba(255,255,255,.0
 /* ── Footer ──────────────────────────────────────────────────────────── */
 .site-footer { background: #052e16; color: rgba(255,255,255,.5); padding: 40px 20px 24px; }
 .footer-inner { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; margin-bottom: 32px; }
-.footer-col h4 { color: var(--white); font-size: .9rem; font-weight: 700; margin-bottom: 12px; }
+.footer-col h4, .footer-col h3 { color: var(--white); font-size: .9rem; font-weight: 700; margin-bottom: 12px; }
 .footer-col p, .footer-col a { font-size: .85rem; line-height: 1.8; display: block; }
 .footer-col a:hover { color: var(--amber); }
 .footer-nap strong { color: var(--white); }

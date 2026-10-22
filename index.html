@@ -54,12 +54,17 @@
   }
   </script>
   <!-- GA4 placeholder — replace G-XXXXXXXXXX with real ID -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-XXXXXXXXXX');
+    window.addEventListener('load', function() {
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
+      s.async = true;
+      document.head.appendChild(s);
+    });
   </script>
 </head>
 <body>
@@ -372,13 +377,13 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-col footer-nap">
-      <h4>Knoxville Weight Loss Clinic</h4>
+      <h3>Knoxville Weight Loss Clinic</h3>
       <p><strong>Phone:</strong> (865) 555-0100</p>
       <p><strong>Area:</strong> Knoxville, TN</p>
       <p><strong>Hours:</strong> Mon&ndash;Fri 8am&ndash;5pm ET</p>
     </div>
     <div class="footer-col">
-      <h4>GLP-1 Services</h4>
+      <h3>GLP-1 Services</h3>
       <a href="/services.html">Semaglutide (Wegovy)</a>
       <a href="/services.html">Tirzepatide (Zepbound)</a>
       <a href="/services.html">Medical Weight Loss Program</a>
@@ -386,7 +391,7 @@
       <a href="/services.html">Telehealth Consultations</a>
     </div>
     <div class="footer-col">
-      <h4>Service Area</h4>
+      <h3>Service Area</h3>
       <a href="/">Knoxville, TN</a>
       <a href="/faq/can-i-get-semaglutide-treatment-in-oak-ridge-tn-near-knoxville/">Oak Ridge, TN</a>
       <a href="/faq/is-there-a-glp-1-weight-loss-clinic-near-maryville-tn-that-serves-knoxville-patients/">Maryville, TN</a>
@@ -395,7 +400,7 @@
       <a href="/faq/">East Tennessee</a>
     </div>
     <div class="footer-col">
-      <h4>Quick Links</h4>
+      <h3>Quick Links</h3>
       <a href="/">Home</a>
       <a href="/services.html">GLP-1 Services</a>
       <a href="/faq/">FAQ</a>
