@@ -492,5 +492,9 @@ Fact-check:
   </div>
 </footer>
 
+<!-- call-bar -->
+<style>.call-bar{display:none}@media (max-width:768px){.call-bar{display:flex;flex-direction:column;align-items:center;position:fixed;left:0;right:0;bottom:0;z-index:9999;padding:9px 16px calc(9px + env(safe-area-inset-bottom));background:#166534;color:#fff;text-decoration:none;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;box-shadow:0 -2px 10px rgba(0,0,0,.25)}.call-bar .cb-l{font-size:13px;font-weight:600;letter-spacing:.02em}.call-bar .cb-n{font-size:19px;font-weight:800}body{padding-bottom:calc(66px + env(safe-area-inset-bottom))}}</style>
+<a class="call-bar" href="tel:+18655550100" aria-label="Call (865) 555-0100" onclick="typeof gtag==='function'&&gtag('event','call_bar_click')"><span class="cb-l">Questions? Tap to Call</span><span class="cb-n">&#128222; (865) 555-0100</span></a>
+<!-- /call-bar -->
 </body>
 </html>
